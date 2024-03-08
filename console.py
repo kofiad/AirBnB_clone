@@ -28,6 +28,8 @@ class HBnBCommand(cmd.Cmd):
         Args:
             arg (_type_): _description_
         """
-        
-if __name__ = '__main__':
+        print("")
+        return True
+
+if __name__ == '__main__':
     HBnBCommand().cmdloop()
