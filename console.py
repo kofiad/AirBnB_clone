@@ -9,7 +9,7 @@ class HBnBCommand(cmd.Cmd):
     Args:
         cmd (_type_): _description_
     """
-    prompt = "(hbnb)"
+    prompt = "(hbnb) "
     pass
 
 HBnBCommand().cmdloop()
