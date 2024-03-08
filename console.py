@@ -12,7 +12,7 @@ class HBnBCommand(cmd.Cmd):
     prompt = "(hbnb) "
 
     def do_quit(self, arg):
-        """function to quit the console
+        """Quits the console program
 
         Args:
             arg (_type_): object argument
