@@ -10,5 +10,16 @@ class HBnBCommand(cmd.Cmd):
         cmd (_type_): _description_
     """
     prompt = "(hbnb) "
+    
+    def do_quit(self, arg):
+        """_summary_
+
+        Args:
+            arg (_type_): _description_
+
+        Returns:
+            _type_: _description_
+        """
+        return True
 
 HBnBCommand().cmdloop()
