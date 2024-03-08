@@ -22,4 +22,12 @@ class HBnBCommand(cmd.Cmd):
         """
         return True
 
-HBnBCommand().cmdloop()
+    def do_EOF(self, arg):
+        """_summary_
+
+        Args:
+            arg (_type_): _description_
+        """
+        
+if __name__ = '__main__':
+    HBnBCommand().cmdloop()
