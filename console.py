@@ -9,6 +9,8 @@ class HBnBCommand(cmd.Cmd):
     Args:
         cmd (class): cmd module method class
     """
+    
+    
     prompt = "(hbnb) "
 
     def do_quit(self, arg):
@@ -18,7 +20,7 @@ class HBnBCommand(cmd.Cmd):
             arg (_type_): object argument
 
         Returns:
-            bool : True to quit 
+            bool : True to quit
         """
         return True
 
