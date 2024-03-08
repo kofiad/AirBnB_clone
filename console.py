@@ -4,21 +4,21 @@ import cmd
 
 
 class HBnBCommand(cmd.Cmd):
-    """_summary_
+    """console class inheriting from cmd module
 
     Args:
-        cmd (_type_): _description_
+        cmd (class): cmd module method class
     """
     prompt = "(hbnb) "
     
     def do_quit(self, arg):
-        """_summary_
+        """function to quit the console
 
         Args:
-            arg (_type_): _description_
+            arg (_type_): object argument
 
         Returns:
-            _type_: _description_
+            bool : True to quit 
         """
         return True
 
