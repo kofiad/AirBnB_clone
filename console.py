@@ -10,7 +10,7 @@ class HBnBCommand(cmd.Cmd):
         cmd (class): cmd module method class
     """
     prompt = "(hbnb) "
-    
+
     def do_quit(self, arg):
         """function to quit the console
 
