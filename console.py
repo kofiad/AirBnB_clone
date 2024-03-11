@@ -39,13 +39,13 @@ def parse(arg):
         retl.append(brackets.group())
         return retl
 
+
 class HBnBCommand(cmd.Cmd):
     """console class inheriting from cmd module
 
     Args:
         cmd (class): cmd module method class
     """
-
     prompt = "(hbnb) "
     __classes = {
         "BaseModel"
@@ -219,6 +219,7 @@ class HBnBCommand(cmd.Cmd):
                 else:
                     obj.__dict__[k] = v
         storage.save()
+
 
 if __name__ == '__main__':
     HBnBCommand().cmdloop()
