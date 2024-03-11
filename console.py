@@ -75,7 +75,7 @@ class HBnBCommand(cmd.Cmd):
             argl = [arg[:match.span()[0]], arg[match.span()[1]:]]
             match = re.search(r"\((.*?)\)", argl[1])
             if match is not None:
-                command = [argl[1][:match.span90[0]], match.group()[1:-1]]
+                command = [argl[1][:match.span[0]], match.group()[1:-1]]
                 if command[0] in argdict.keys():
                     call = "{} {}".format(argl[0], command[1])
                     return argdict[command[0]](call)
